@@ -1,0 +1,12 @@
+------------------------------------------------------------------------------------------------------------------------------
+This is the code required for creation custom Service Repository, explained in Chapter 5.
+For installation:
+
+1. Create SR tablespaces using create_tablespace_CTUSR.sql script. Modify it according to your preferences.
+
+2. Create SR user using create_user_CTUSR.sql script. Modify it according to your preferences.
+
+3. Run main installation script create_schema_CTUSR.sql. It will create the DB Schema as shown in model diagram, subfolder /model. 
+
+During installation additional packages will be installed for Rule Engine and Logging, also used in Chapter 6. 
+Addition views provided for creation ServiceInventoryEndpoint BPEL Service, used in Chapter 3 and 4.
